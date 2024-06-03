@@ -16,6 +16,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: rgba(197, 190, 190, 0.456);
+    margin-bottom: 60px;
 
 }
 .quizapp{
@@ -44,7 +45,6 @@ h1 {
 }
 #question-card {
 text-align: center;
-
 }
 #question-card p {
 font-size: 22px;
