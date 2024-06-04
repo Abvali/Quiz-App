@@ -17,12 +17,17 @@ body {
     flex-wrap: wrap;
     background-color: rgba(197, 190, 190, 0.456);
     margin-bottom: 60px;
-
+margin-top: 85px;
 }
 .quizapp{
     text-align: center;
     border-bottom: 3px gray solid;
     background-color: rgb(223, 211, 211);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,6 +53,17 @@ text-align: center;
 }
 #question-card p {
 font-size: 22px;
+}
+.bookmark {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -18px;
+    right: 0;
+    cursor: pointer;
+}
+.bookmark:hover {
+fill: rgb(140, 122, 122);
 }
 #answer-btn {
     padding: 8px;
