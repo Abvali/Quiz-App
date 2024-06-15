@@ -61,9 +61,10 @@ font-size: 22px;
     top: -18px;
     right: 0;
     cursor: pointer;
+    fill: rgb(140, 122, 122);
 }
-.bookmark:hover {
-fill: rgb(140, 122, 122);
+.bookmark-select {
+fill: black;
 }
 #answer-btn {
     padding: 8px;
