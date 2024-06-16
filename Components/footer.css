@@ -1,0 +1,22 @@
+footer {
+    border-top: 3px gray solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(223, 211, 211);
+    z-index: 1;
+    /* height: 110px; */
+
+}
+.footer-container {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-icon {
+   color: black;
+   font-size: 50px;
+   cursor: pointer;
+}

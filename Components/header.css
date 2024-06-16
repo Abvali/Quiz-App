@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+    border-bottom: 3px gray solid;
+    background-color: rgb(223, 211, 211);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.header__title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}

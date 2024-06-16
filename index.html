@@ -5,121 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./Components/header.css">
+    <link rel="stylesheet" href="./Components/footer.css">
+    <link rel="stylesheet" href="./Components/cards.css">
     <title>Quiz App</title>
 </head>
-<body>
-    <div class="quizapp">
-        <h1>Quiz App</h1>
-    </div>
+<body class="light-theme">
+    <header class="header">
+        <h1 class="header__title">Quiz App</h1>
+    </header>
     <div class="container">
         <div class="quiz-container">
             <div id="question-card" data-js="question-card">
                 <p id="question">
-                    What property flips the axes in flexbox?
+                   Was ist das jüngste Land der Welt?
                 </p>
                 <svg class="bookmark" data-js="bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
                 </svg>
             </div>
-            <a href="#"><button type="submit" id="answer-btn">Show Answer</button></a>
+            <button type="submit" id="answer-btn" data-js="answer-btn">Show Answer</button>
+            
+                <p class="hiddenanswer" data-js="show-answer">"Süd-Sudan"</p>
+                
             <div class="tags">
-                <button>#html</button>
-                <button>#flexbox</button>
-                <button>#css</button>
+                <button aria-label="kultur">#Kultur</button>
+                <button aria-label="Länder">#Länder</button>
+                <button aria-label="Wissen">#Wissen</button>
             </div>
             
            </div>
            <div class="quiz-container">
             <div id="question-card">
                 <p id="question">
-                    What property flips the axes in flexbox?
+                    Whelche Sprache ist die meist gesprochene Muttersprache der Welt?
                 </p>
                 <svg class="bookmark" data-js="bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
                 </svg>
             </div>
-            <button type="submit" id="answer-btn">Show Answer</button>
+            <button type="submit" id="answer-btn" data-js="answer-btn">Show Answer</button>
+            <p class="hiddenanswer" data-js="show-answer">"Chinesisch"</p>
             <div class="tags">
-                <button>#html</button>
-                <button>#flexbox</button>
-                <button>#css</button>
+                <button aria-label="kultur">#Kultur</button>
+                <button aria-label="Länder">#Länder</button>
+                <button aria-label="Wissen">#Wissen</button>
             </div>
             
            </div>
            <div class="quiz-container">
             <div id="question-card">
                 <p id="question">
-                    What property flips the axes in flexbox?
+                    Mit Welchen Reisepässen lässt es sich am besten reisen (visumfreie Einreise)?
                 </p>
                 <svg class="bookmark" data-js="bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
                 </svg>
             </div>
-            <button type="submit" id="answer-btn">Show Answer</button>
+            <button type="submit" id="answer-btn" data-js="answer-btn">Show Answer</button>
+            <p class="hiddenanswer" data-js="show-answer">"Dutschland und Singapur"</p>
             <div class="tags">
-                <button>#html</button>
-                <button>#flexbox</button>
-                <button>#css</button>
+                <button aria-label="kultur">#Kultur</button>
+                <button aria-label="Länder">#Länder</button>
+                <button aria-label="Wissen">#Wissen</button>
             </div>
             
            </div>
            <div class="quiz-container">
             <div id="question-card">
                 <p id="question">
-                    What property flips the axes in flexbox?
+                    Viele Erfindungen kommen aus Deutschland. Doch was wurde hier nicht erfunden?  
                 </p>
                 <svg class="bookmark" data-js="bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
                 </svg>
             </div>
-            <button type="submit" id="answer-btn">Show Answer</button>
+            <button type="submit" id="answer-btn" data-js="answer-btn">Show Answer</button>
+            <p class="hiddenanswer" data-js="show-answer">"Kartoffelnchips"</p>
             <div class="tags">
-                <button>#html</button>
-                <button>#flexbox</button>
-                <button>#css</button>
+                <button aria-label="Kultur">#Kultur</button>
+                <button aria-label="Länder">#Länder</button>
+                <button aria-label="Wissen">#Wissen</button>
             </div>
             
            </div>
            <div class="quiz-container">
             <div id="question-card">
                 <p id="question">
-                    What property flips the axes in flexbox?
+                    In wie vielen Ländern ist der Internet-TV-Anbieter Netflix aktiv? 
                 </p>
                 <svg class="bookmark" data-js="bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
                 </svg>
             </div>
-            <button aria-label="show answer" type="submit" id="answer-btn">Show Answer</button>
-            <div class="tags">
-                <button aria-label="html">#html</button>
-                <button aria-label="flexbox">#flexbox</button>
-                <button aria-label="css">#css</button>
+            <button aria-label="show answer" type="submit" id="answer-btn" data-js="answer-btn">Show Answer</button>
+            
+            <p class="hiddenanswer" data-js="show-answer">"mehr als 190"</p>
+                <div class="tags">
+                    <button aria-label="kultur">#Kultur</button>
+                    <button aria-label="Länder">#Länder</button>
+                    <button aria-label="Wissen">#Wissen</button>
             </div>
             
            </div>
            <div class="quiz-container">
             <div id="question-card">
                 <p id="question">
-                    What property flips the axes in flexbox?
+                    in Welchem Land liegt die größte Stadt der Welt?
                 </p>
                 <svg class="bookmark" data-js="bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
                 </svg>
             </div>
-            <button type="submit" id="answer-btn">Show Answer</button>
+            <button type="submit" id="answer-btn" data-js="answer-btn">Show Answer</button>
+            <p class="hiddenanswer" data-js="show-answer">"Japan"</p>
             <div class="tags">
-                <button>#html</button>
-                <button>#flexbox</button>
-                <button>#css</button>
+                <button aria-label="kultur">#Kultur</button>
+                <button aria-label="Länder">#Länder</button>
+                <button aria-label="Wissen">#Wissen</button>
             </div>
             
            </div>
     </div>
  <footer>
     <nav class="footer-container">
-        <a class="footer-icon" href="#"><i class="fa-solid fa-house"></i></a>
-        <a class="footer-icon" href="#"><i class="fa-solid fa-bookmark"></i></a>
-        <a class="footer-icon" href="#"><i class="fa-solid fa-user"></i></a>
+        <a class="footer-icon" href="./index.html"><i class="fa-solid fa-house"></i></a>
+        <a class="footer-icon" href="./bookmarks.html"><i class="fa-solid fa-bookmark"></i></a>
+        <a class="footer-icon" href="./profile.html"><i class="fa-solid fa-user"></i></a>
     </nav>
  </footer>
 </body>
