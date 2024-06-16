@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/Components/header.css">
+    <link rel="stylesheet" href="./css/Components/footer.css">
+    <link rel="stylesheet" href="./css/Components/cards.css">
+    <link rel="stylesheet" href="./css/Components/form.css">
+    <title>Quiz App</title>
+</head>
+<body class="light-theme">
+    <header class="header">
+        <h1 class="header__title">Quiz App</h1>
+    </header>
+        <form class="form" data-js="form-question">
+                <lable class="form-lable" for="input-question">
+                    Your question:
+                </lable>
+                <textarea class="form__textarea"
+                name="question"
+                id="input-question"
+                rows="4"
+                required
+                placeholder="Type your question here"
+                maxlength="150"
+                data-js="form-question-text"
+                ></textarea>
+                    <p class="form__counter-text">
+                        Characters left:
+                        <span class="form__counter-num" data-js="form-counter-num">150</span>
+                    </p>
+        <label class="form-lable" for="input-answer">Your answer:</label>
+        <textarea class="form__textarea"
+        name="answer"
+        id="input-answer"
+        required
+        placeholder="Type your Answer here"
+        maxlength="150"
+        data-js="form-answer-text"
+        ></textarea>
+        <p class="form__counter-text">
+            Characters left:
+            <span class="form__counter-num" data-js="form-counter-num">150</span>
+        </p>
+        <label for="input-tag" class="form-lable">Tag:</label>
+        <input class="form__input-tag" 
+        type="text"
+        name="Tag"
+        id="input-tag"
+        required
+        placeholder=""
+        maxlength="20"
+        
+        >
+        <button class="form__button" data-js="form-button">Click here</button>
+   </form>
+ <footer>
+    <nav class="footer-container">
+        <a class="footer-icon" href="./index.html"><i class="fa-solid fa-house"></i></a>
+        <a class="footer-icon" href="./bookmarks.html"><i class="fa-solid fa-bookmark"></i></a>
+        <a class="footer-icon" href="./form.html"><i class="fa-solid fa-add"></i></a>
+        <a class="footer-icon" href="./profile.html"><i class="fa-solid fa-user"></i></a>
+    </nav>
+ </footer>
+</body>
+
+</html>
